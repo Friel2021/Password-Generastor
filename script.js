@@ -21,7 +21,7 @@ function determineLength(){
       alert("Password length must be a number between 8-128 characters");
       determineLength();
     }else{
-    alert("Next, please answer Y or N to confim which types of characters will be allowed.");
+    alert("Next, please answer Y or N to confim which types of characters will be allowed. If N is answered for all, characters will default to include every type");
     }
     return passwordLength;
 }
@@ -154,7 +154,7 @@ if (uppercaseCheck && numberCheck && specialCheck){
   characters += specialChar;
 
 }else{
-  characters === uppercaseChar;
+  characters = uppercaseChar + numberChar + specialChar + lowercaseChar;
 }
 
   for(var i = 0; i < passwordLength; i++){
