@@ -27,3 +27,4 @@ THEN a password is generated that matches the selected criteria
 
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+![FireShot Capture 007 - Password Generator - friel2021 github io](https://user-images.githubusercontent.com/87154134/127799755-9566d2cb-9188-4d7c-85c4-419e619e2199.png)
