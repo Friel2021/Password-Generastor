@@ -18,6 +18,8 @@ function determineLength(){
     }else if (passwordLength>128){
       alert("Password length must be a number between 8-128 characters");
       determineLength();
+    }else if (!passwordLength){
+      return 
     }else if (isNaN(passwordLength)){
       alert("Password length must be a number between 8-128 characters");
       determineLength();
